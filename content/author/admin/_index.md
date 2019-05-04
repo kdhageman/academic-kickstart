@@ -78,8 +78,7 @@ interests = [
 +++
 
 I am currently pursuing a PhD degree at the Wireless Communication Section at the Aalborg University, Denmark.
-The PhD project focuses on detecting phishing domains early in their lifecycle.
-My research interest include network security, the analysis of the Internet at large and have a curiosity for machine learning.
+The PhD project focuses on understanding the behaviour of phishers and towards the detection phishing domains early in their lifecycle.
+My research interests include network security, the analysis of the Internet at large and besides that I have a curiosity for machine learning.
+
 In addition, I have been involved in the development of the (soon to be) open-source [Haaukins](https://github.com/aau-network-security/haaukins) platform, a virtualization platform used for the education of information security. 
-
-

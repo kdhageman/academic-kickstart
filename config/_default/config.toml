@@ -9,11 +9,11 @@ title = "Kaspar Hageman"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://kdhageman.github.io"
+baseurl = "https://www.hageman.dk/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
+copyright = "&copy; {year} Kaspar Hageman "
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
