@@ -1,0 +1,9 @@
++++
+authors = [ "Roland van Rijswijk-Deij", "Kaspar Hageman", "Anna Sperotto", "Aiko Pras" ]
+title= "The Performance Impact of Elliptic Curve Cryptography on DNSSEC Validation"
+date = "2017-04-01"
+publication = "IEEE/ACM Transactions on Networking"
+doi = "10.1109/TNET.2016.2605767"
+publication_types = ["2"]
+abstract = "The domain name system (DNS) is a core Internet infrastructure that translates names to machine-readable information, such as IP addresses. Security flaws in DNS led to a major overhaul, with the introduction of the DNS security (DNSSEC) extensions. DNSSEC adds integrity and authenticity to the DNS using digital signatures. DNSSEC, however, has its own concerns. It suffers from availability problems due to packet fragmentation and is a potent source of distributed denial-of-service attacks. In earlier work, we argued that many issues with DNSSEC stem from the choice of RSA as default signature algorithm. A switch to alternatives based on elliptic curve cryptography (ECC) can resolve these issues. Yet switching to ECC introduces a new problem: ECC signature validation is much slower than RSA validation. Thus, switching DNSSEC to ECC imposes a significant additional burden on DNS resolvers, pushing load toward the edges of the network. Therefore, in this paper, we study the question: will switching DNSSEC to ECC lead to problems for DNS resolvers, or can they handle the extra load? To answer this question, we developed a model that accurately predicts how many signature validations DNS resolvers have to perform. This allows us to calculate the additional CPU load ECC imposes on a resolver. Using real-world measurements from four DNS resolvers and with two open-source DNS implementations, we evaluate future scenarios where DNSSEC is universally deployed. Our results conclusively show that switching DNSSEC to ECC signature schemes does not impose an insurmountable load on DNS resolvers, even in worst case scenarios."
++++
